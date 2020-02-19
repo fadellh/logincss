@@ -1,0 +1,101 @@
+h1{
+    -webkit-font-smoothing: antialiased;
+    margin-top: 0cm;
+    text-align: center;
+}
+
+.kotak{
+    height: 400px;
+    position: relative;
+    /* outline: 100px; */
+    background-color: white;
+    margin: auto;
+    width: 25%;
+    border:black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px;
+    border-collapse: collapse;
+    
+}
+body{
+    background-image: url("https://miro.medium.com/max/1280/1*iutJ4V6Jl9CmLMy5zFcoAA.jpeg");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* position: relative; */
+    /* background-position: inherit; */
+    
+}
+
+.text {
+    text-align: center ;
+    text-shadow: black;
+    text-indent: 10px;
+    color: gray;
+    margin-bottom: -0.5cm;
+    font: Arial;
+    
+    
+}
+
+.input{
+    width: 200px;
+    line-height: 8px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 14px;
+    margin-left: 2cm;
+  margin-right: 2cm;
+  margin-top: 10px;
+    /* transition: 250ms; */
+    
+}
+
+.button {
+
+    border-radius: 20px;
+    background-color: white;
+
+
+    /* transition: 250ms; */
+} 
+
+.kotak input[type = "text"],.kotak input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color:black;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .kotak input[type = "text"]:focus,.kotak input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+  }
+
+  .kotak input[class = "button"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center !important;
+    
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .kotak input[class = "button"]:hover{
+    background: #2ecc71;
+  }
+  
